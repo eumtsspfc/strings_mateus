@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-destaque: #444fe4;
-    --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #1E2021 44.96%, #1E2022 100%);
+    --cor-destaque: #e5e6f1;
+    --cor-gradiente-preto: linear-gradient(113deg, #3c48c7 0%, #1e9bda 44.96%, #0e2134 100%);
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Montserrat;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 body {
